@@ -1,0 +1,105 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 5vh;
+  border-radius: 12px;
+  font-size: 1.3em;
+}
+
+.logo {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3vh;
+  padding: 5px;
+}
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.todo {
+  padding: 5px;
+  margin-left: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.todo:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3vh;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.link {
+  padding: 5px;
+  margin: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.logo2 {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 3vh;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.logo2:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+.authDropdown {
+  position: absolute;
+  top: 9vh;
+  right: 2.5%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 2px;
+  z-index: 1000;
+}
+
+.authButton {
+  padding: 8px 16px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.logo2 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.authButton:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+

@@ -1,0 +1,61 @@
+.update-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 75vh;
+  height: 50vh;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  color: rgb(255, 255, 255);
+}
+
+.update-head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.update-title,
+.update-body {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: white;
+}
+
+.update-body {
+  height: 100px;
+}
+
+.update-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  bottom: 25px;
+  position: fixed;
+}
+
+.update-close {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  bottom: 25px;
+  position: fixed;
+  margin-left: 100px;
+}
+
+.update-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.update-close {
+  background-color: #dc3545;
+  color: #fff;
+}

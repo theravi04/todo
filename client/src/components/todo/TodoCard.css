@@ -1,0 +1,51 @@
+.todo-card {
+  color: #ffffff;
+  width: 30vw;
+  height: 30vh;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: 25vh;
+  padding: 5px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.body {
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.delete-button,
+.edit-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7vw;
+  height: 5vh;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
